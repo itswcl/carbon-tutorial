@@ -46,7 +46,7 @@
   flex-grow: 1; // fill space so icons are bottom aligned
   @include type-style('body-long-01');
 
-  // prevent large line lengths between small and medium viewports
+  // prevent large line lengths between small and medium viewport
   @include carbon--breakpoint-between(321px, md) {
     max-width: 75%;
   }
